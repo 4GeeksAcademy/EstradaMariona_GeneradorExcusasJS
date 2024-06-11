@@ -13,7 +13,7 @@ window.onload = function() {
     "antes de la clase",
     "cuando dormia",
     "cuando jugaba a futbol",
-    "cuando cenaba",
+    "cuando cenaba"
   ];
 
   function generarexcusas() {
