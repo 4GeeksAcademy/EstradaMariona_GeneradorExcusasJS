@@ -21,14 +21,7 @@ window.onload = function() {
     let actionRandom = Math.floor(Math.random() * action.length);
     let whatRandom = Math.floor(Math.random() * what.length);
     let whenRandom = Math.floor(Math.random() * when.length);
-    let excusas =
-      who[whoRandom] +
-      " " +
-      action[actionRandom] +
-      " " +
-      what[whatRandom] +
-      " " +
-      when[whenRandom];
+    let excusas = `${who[whoRandom]} ${action[actionRandom]} ${what[whatRandom]} ${when[whenRandom]}`;
     return excusas;
   }
   let excusasElement = document.getElementById("excuse");
